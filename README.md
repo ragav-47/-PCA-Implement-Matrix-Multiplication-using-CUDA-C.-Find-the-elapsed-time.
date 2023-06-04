@@ -5,12 +5,12 @@ The aim of this project is to demonstrate how to perform matrix multiplication u
 
 ### Procedure:
 1)Allocate memory for matrices h_a, h_b, and h_c on the host.
-/n2)Initialize matrices h_a and h_b with random values between 0 and 1.
-3)Allocate memory for matrices d_a, d_b, and d_c on the device.
-4)Copy matrices h_a and h_b from the host to the device.
-5)Launch the kernel matrixMulGPU with numBlocks blocks of threadsPerBlock threads.
-6)Measure the time taken by the CPU and GPU implementations using CUDA events.
-7)Print the elapsed time for each implementation.
+<br>2)Initialize matrices h_a and h_b with random values between 0 and 1.
+<br>3)Allocate memory for matrices d_a, d_b, and d_c on the device.
+<br>4)Copy matrices h_a and h_b from the host to the device.
+<br>5)Launch the kernel matrixMulGPU with numBlocks blocks of threadsPerBlock threads.
+<br>6)Measure the time taken by the CPU and GPU implementations using CUDA events.
+<br>7)Print the elapsed time for each implementation.
 8)Free the memory allocated on both the host and the device.
 
 ### Program:
